@@ -1,0 +1,149 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            overflow-y: hidden;
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            height: 70px;
+            /* position: sticky; */
+            /* top:0; */
+            background-color: white;
+        }
+
+        .material-icons{
+            color: #606060;
+        }
+
+        .left_icons{
+            display: flex;
+            align-items: center;
+            gap: 15px
+        }
+        .left_icons img{
+            width: 50px;
+        }
+        .left_icons i{
+            cursor:pointer;
+        }
+
+
+        .center_icons form{
+            display: flex;
+            border: 1px solid #ddd;
+        }
+        .center_icons form input{
+            width: 500px;
+            border: none;
+            padding: 10px;;
+        
+        }
+        .center_icons form button{
+            border: none;
+        }
+
+        .right_icons i{
+            cursor:pointer;
+        }
+
+/* ---------------------------------------------------------------------------Header css-------------------------------------------------------------------------------------- */
+
+/* Sidebard-Styling */
+
+.main_section{
+    display: flex;
+    height: calc(100vh - 70px);
+    
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 299px;
+    background-color: white;
+    left:0;
+}
+
+.sidebar div{
+    display: flex;
+    padding: 15px;
+    gap:15px;
+    align-items: center;
+    color: #606060;
+}
+.top_border{
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.sidebar div:hover {
+    background-color: #E5E5E5;
+    cursor: pointer;
+}
+
+.main_section{
+    background-color: #F9F9F9;
+}
+
+    
+.videos{
+    height: 100%;
+    width: calc(100% - 299px);
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    overflow-y: scroll;
+    
+}
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    gap:50px;
+
+    
+}
+.thumbnail img{
+    height: 180px;
+    width: 350px;
+}
+
+.details{
+    width: 200px;
+    display: flex;
+    width: 350px;
+    gap: 12px;
+}
+
+
+
+.small_icon img{
+    width: 45px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.text p {
+    color: #606060;
+}
+
+.top_border{
+    border-top: 1px solid #ddd;
+    margin: 10px 0px;
+
+}
+
